@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"   integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- fin bootstrap -->
+    <link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- inicio header -->
+    <header>
+    <nav class="nav_bar">
+        <div class="logo">
+            <img src="./templates/logo.png" alt="" />
+        </div>
+            <div class="list">
+                <a href="./index.html">HOME</a>
+                <a href="./our_works.html">GALLERY</a>
+                <a href="./servicio.html">SERVICIOS</a>
+                <a href="./about_us.html">ABOUT US</a>
+                <a href="./contactos.html">CONTACT</a>
+            </div>
+        </nav>
+    </header>
+    <!-- fin header -->
+    <!-- inicio de main -->
+    
+    <!-- inicio main galeria -->
+    <section class="galeria">
+        <h2 class="our_works_titulo">OUR WORKS</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./templates/imagean_our_works.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./templates/imagean_our_works.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./templates/imagean_our_works.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- maderas -->
+        <section class="maderas">
+            <h2 class="maderas_texto_principal">THE WOODS WE WORK WITH</h2>
+            <div class="maderas_maderas">
+                <div class="madera_1">
+                    <img src="./templates/nuestras_maderas_1.png" alt="">
+                    <h3>OAK</h3>
+                    <ul>
+                        <li>durability</li>
+                        <li>beautiful texture</li>
+                        <li>water resintance</li>
+                    </ul>
+                </div>
+                <div class="madera_2">
+                    <img src="./templates/nuestras_maderas_2.png" alt="">
+                <h3>buk</h3>
+                <ul>
+                    <li>durability</li>
+                    <li>hard to handle</li>
+                </ul>
+                </div>
+                <div class="madera_3">
+                    <img src="./templates/nuestras_maderas_3.png" alt="">
+                    <h3>ASH</h3>
+                    <ul>
+                        <li>durability</li>
+                        <li>hard to handle</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- question -->
+        <section class="questions">
+            <h3>ANY QUESTION ?</h3>
+            <div class="caja_questions">
+                <div class="form">
+                    <form class="form">
+                        <label for="nombre">nombre</label>
+                        <input type="text" name="nombre">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="">
+                        <label for="descripcion">descripcion</label>
+                        <textarea name="message" cols="40" rows="5">descripcion aqui</textarea>
+                        <input type="button" value="aca">
+                    </form>
+                </div>
+                <div class="parrafo_question">
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nobis praesentium, harum aliquam fuga earum quo provident optio ut tempora sint quae cupiditate error nisi eius nostrum! Amet, illo fugit.</P>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer">
+                <div class="bio">
+                    <img src="./templates/logo.png" alt="">
+                </div>
+                <div class="redes">
+                    <div class="redes1">
+                        <a href="./https://www.facebook.com">
+                            <img src="./templates/icono_faceebook.png" alt="">
+                        </a>
+                    </div>
+                    <div class="redes2">
+                        <a href="./imstagram.com">
+                            <img src="./templates/icono_instagram.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- fin de footer -->
+</body>
+</html>
